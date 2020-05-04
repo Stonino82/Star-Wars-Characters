@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62924fd2785f3f7eac9a7b7e45b4f521",
+    "revision": "fd2d60e06e908754521926f47dc6b182",
     "url": "/Star-Wars-Characters/index.html"
   },
   {
-    "revision": "7291c5fb97c9752a0624",
+    "revision": "e7f8e8c8d70f941c7bc1",
     "url": "/Star-Wars-Characters/static/css/main.232c69fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Star-Wars-Characters/static/js/2.55ddc674.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7291c5fb97c9752a0624",
-    "url": "/Star-Wars-Characters/static/js/main.0fa92bf9.chunk.js"
+    "revision": "e7f8e8c8d70f941c7bc1",
+    "url": "/Star-Wars-Characters/static/js/main.a777f975.chunk.js"
   },
   {
     "revision": "1c4faca46e1f530c2942",
