@@ -1,0 +1,48 @@
+.episodes {
+    height: 150px;
+    width: 800px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+h4{
+    color: white;
+    margin: 5px 0 5px 0;
+    text-align: left;
+    width: 100px;
+}
+.episodes ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.episodes ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    border-radius: 5px;
+    margin: 0 15px 10px 0;
+    background-color: transparent;
+}
+.episodes ul li p{
+    color: white;
+    text-align: center;
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.episodes ul li img{
+    display: block;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}

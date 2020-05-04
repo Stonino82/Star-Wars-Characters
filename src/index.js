@@ -6,6 +6,8 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <div className="stars"></div>
+    <div className="twinkling"></div>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
