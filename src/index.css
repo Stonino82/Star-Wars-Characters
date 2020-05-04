@@ -10,7 +10,7 @@ code {
     monospace;
 }
 
-/* 
+
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
@@ -26,7 +26,7 @@ code {
 @-ms-keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
-} */
+}
 .stars {
   background: url(./imgs/stars.png) top center #000;
 }
