@@ -18,7 +18,6 @@ class App extends Component {
       films: [],
     }
     this.componentDidMount = this.componentDidMount.bind(this)
-    
   }
 
   componentDidMount() {
@@ -28,12 +27,11 @@ class App extends Component {
     })
 
     let randomNum = Math.floor(Math.random() * 82) +1;
-    if(randomNum==17) randomNum = 1;
+    if(randomNum === 17) randomNum = 1;
 
     fetch('https://swapi.dev/api/people/'+randomNum)
         .then(response => response.json())
         .then(data => {
-            
             this.setState({
                 character: data,
                 planet: data.homeworld,
@@ -41,7 +39,6 @@ class App extends Component {
                 // img: '../imgs/characters/'+randomNum+'.jpg',
                 characterImg: require('./imgs/characters/'+randomNum+'.jpg'),
             })
-            
             
             let planet = this.state.planet
             fetch(planet)
@@ -79,7 +76,6 @@ class App extends Component {
               }) 
             })
 
-            
         })
   }
   
