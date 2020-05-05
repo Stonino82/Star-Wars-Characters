@@ -1,11 +1,7 @@
 import React from 'react'
 import './Character.css'
-import Films from '../Films/Films'
 
 const Character = ( props ) => {
-
-    
-    
 
     return (
       <div className="card">
@@ -25,7 +21,6 @@ const Character = ( props ) => {
             <p><strong>Height:</strong> {props.character.height}</p>
             <p><strong>Homeworld:</strong> {props.planet.name}</p>
           </div>
-          {/* <Films films={props.films} /> */}
         </div>
       </div>
     );

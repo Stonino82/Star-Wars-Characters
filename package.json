@@ -1,6 +1,6 @@
 {
-  "name": "star-wars-characters",
   "homepage": "http://Stonino82.github.io/Star-Wars-Characters",
+  "name": "star-wars-characters",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,12 +12,12 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "BROWSER=Firefox react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

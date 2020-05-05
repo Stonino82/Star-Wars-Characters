@@ -60,6 +60,7 @@ class App extends Component {
 
             let filmsURL = [...this.state.filmsURL]
             let arrFilms = []
+            // eslint-disable-next-line
             filmsURL.map(film => {
               fetch(film)
               .then(response => response.json())
@@ -82,7 +83,7 @@ class App extends Component {
 
   render(){
 
-    const text = this.state.loading ? "loading..." : null
+    const text = this.state.loading ? "loading..." : "random"
 
     return (
       <div className="App">
@@ -100,8 +101,7 @@ class App extends Component {
                   films={this.state.films}
         />
         <Films films={this.state.films}/>
-        <button onClick={this.componentDidMount}>random</button>
-        <p className="loading">{text}</p>
+        <button onClick={this.componentDidMount}>{text}</button>
       </div>
     );
   }

@@ -1,34 +1,67 @@
-.card {
-    background: white;
-    width: 800px;
-    height: 380px;
-    border-radius: 5px;
-    display: flex;
-    opacity: .85;
-    /* margin: 30px 0 30px 0; */
+     .card {
+        background: white;
+        width: 90%;
+        min-height: 40%;
+        height: 44%;
+        border-radius: 5px;
+        display: flex;
+        opacity: .85;
+        font-size: .75rem;
+        overflow: hidden;
+    }
+    .picture {
+        width: 55%;
+        background: #777;
+        border-radius: 5px 0 0 5px;
+    }
+    .picture img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+        border-radius: 5px 0 0 5px;
+    }
+    .details {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 5%;
+    }
+    .feature {
+        text-align: left;
+    }
+
+@media screen and (min-width: 480px) {
+    .card {
+        height: 50%;
+        font-size: .875rem;
+    }
 }
-.picture {
-    width: 45%;
-    background: #777;
-    border-radius: 5px 0 0 5px;
+@media screen and (min-width: 768px) {
+    .picture {
+        width: 40%;
+    }
+    .details {
+        width: 60%;
+    }
 }
-.picture img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top center;
-    border-radius: 5px 0 0 5px;
+@media screen and (min-width: 992px) {
+    .card {
+        width: 800px;
+        height: 380px;
+        font-size: 1rem;
+    }
+    .picture {
+        width: 45%;
+    }
+    .details {
+        width: 55%;
+    }
+    .feature p {
+        margin: 1rem 0 0 1.5rem;
+    }
 }
-.details {
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    padding: 2% 5%;
-}
-.feature {
-    text-align: left;
-}
-.feature p {
-    margin: .7rem 0 0 1.5rem;
+@media screen and (min-width: 1200px) {
+   
 }
