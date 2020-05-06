@@ -1,6 +1,6 @@
 body {
   margin: 0;
-    font-family:  Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -32,6 +32,7 @@ code {
     bottom: 0;
     z-index: -1;
 }
+/* 
 @keyframes move-twink-back {
   from {background-position:0 0;}
   to {background-position:-10000px 5000px;}
@@ -47,4 +48,4 @@ code {
 @-ms-keyframes move-twink-back {
   from {background-position:0 0;}
   to {background-position:-10000px 5000px;}
-}
+} */

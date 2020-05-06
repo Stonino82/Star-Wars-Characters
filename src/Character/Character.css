@@ -34,6 +34,22 @@
     .feature p {
         margin: .5rem 0 0 .5rem;
     }
+@media screen and (max-height: 570px) {
+    .card {
+        margin: .5rem 0;
+    }
+    .episodes {
+        margin: .5rem 0;
+    }
+}
+@media screen and (max-height: 700px) {
+    h2{
+        margin: .5rem 0;
+    }
+    .feature p {
+        margin: .2rem 0 0 .5rem;
+    }
+}
 
 @media screen and (min-width: 480px) {
     .card {
@@ -41,7 +57,7 @@
         font-size: .875rem;
     }
     .feature p {
-        margin: .7rem 0 0 .5rem;
+        margin: .5rem 0 0 .5rem;
     }
 }
 @media screen and (min-width: 768px) {

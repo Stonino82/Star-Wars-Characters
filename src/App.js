@@ -102,6 +102,14 @@ class App extends Component {
         />
         <Films films={this.state.films}/>
         <button onClick={this.componentDidMount}>{text}</button>
+        <div className="footer">
+          <div>
+            <p>Designed and developed by <a href="http://www.antoninolattene.com">Antonino Lattene</a> @2020</p>
+            <a href=""><i className="fab fa-github"></i></a>
+            <a href=""><i className="fab fa-linkedin-in"></i></a>
+          </div>
+          <p>Star Wars and all associated names and/or images are copyright Lucasfilm Ltd.</p>
+        </div>
       </div>
     );
   }
