@@ -55,12 +55,14 @@ button {
   border-radius: 5px;
   opacity: .85;
   cursor: pointer;
+  outline:none;
 }
 button:active {
   transform: translateY(1px);
   font-size: 11px;
   /* background-color:  #eee; */
   box-shadow: 0 0 20px 5px #6661;
+  opacity: .65;
 }
 
 .loading {

@@ -31,11 +31,17 @@
     .feature {
         text-align: left;
     }
+    .feature p {
+        margin: .5rem 0 0 .5rem;
+    }
 
 @media screen and (min-width: 480px) {
     .card {
         height: 50%;
         font-size: .875rem;
+    }
+    .feature p {
+        margin: .7rem 0 0 .5rem;
     }
 }
 @media screen and (min-width: 768px) {
@@ -45,11 +51,14 @@
     .details {
         width: 60%;
     }
+    .feature p {
+        margin: 1rem 0 0 1rem;
+    }
 }
 @media screen and (min-width: 992px) {
     .card {
         width: 800px;
-        height: 380px;
+        height: 420px;
         font-size: 1rem;
     }
     .picture {

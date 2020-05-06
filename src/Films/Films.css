@@ -6,11 +6,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        font-size: .75rem;
+        font-size: 1rem;
     }
     h4{
         color: white;
-        margin: 0 0 5px 0;
+        margin: 0 0 10px 0;
         text-align: left;
     }
     .episodes ul{
@@ -34,21 +34,19 @@
     .episodes ul li p{
         color: white;
         text-align: center;
-        font-size: .75rem;
-        line-height: 1rem;
+        font-size: .65rem;
+        line-height: .8rem;
+        margin: .5rem 0;
     }
     .episodes ul li img{
         display: block;
-        height: 80px;
+        height: 65px;
         object-fit: cover;
         object-position: center;
         border-radius: 5px;
     }
 
 @media screen and (min-width: 480px) {
-    .episodes {
-        font-size: .875rem;
-    }
     .episodes ul li p{
         color: white;
         text-align: center;
